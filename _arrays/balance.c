@@ -1,8 +1,7 @@
 #include "main.h"
-double getAverage(int arr[], int size);
-int main ()
+double getAverage(int arr[], int size)
 {
-	int balance[10] = {109, 234, 345, 765, 5, 4, 123, 45, 87, 98};
+	int balance[] = {109, 234, 345, 765, 5, 4, 123, 45, 87, 98};
 	double avg;
 
 	avg = getAverage (balance, 10);
